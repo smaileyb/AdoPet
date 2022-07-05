@@ -1,0 +1,57 @@
+.principal {
+  background-color: var(--azul);
+}
+
+.principal__logo {
+  background-image: url(../img/logo-adopet.png);
+  height: 2.875rem;
+  left: 5.438rem;
+  position: absolute;
+  top: 10.5rem;
+  width: 11.625rem;
+
+}
+
+.principal__titulo {
+  color: white;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.625rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.principal__texto {
+  color: white;
+  text-align: center;
+  margin: 1rem 3.5rem 2rem 3.5rem;
+
+}
+
+.principal>.botao {
+  margin-left: 5.625rem;
+}
+
+.principal>a {
+  margin-left: 5.625rem;
+}
+
+.principal__splash {
+  background-image: url(../img/home-right-shape.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 25.938rem;
+  top: 12.5rem;
+  /* left: calc(100vw - 5.25rem); */
+  right: -1rem;
+  width: 5.25rem;
+
+}
+
+.principal__imagem {
+  background-image: url(../img/cat-and-dog.png);
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  height: 19.5rem;
+  width: 15.438rem;
+  margin: 2rem 4.938rem -1rem 2rem;
+}

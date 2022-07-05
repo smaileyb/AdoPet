@@ -1,0 +1,56 @@
+.cadastro {
+  display: flex;
+  flex-direction: column;
+}
+
+.cadastro__logo {
+  background-image: url(../img/logo-adopet-azul.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 2.148rem;
+  left: 6.813rem;
+  position: absolute;
+  top: 9.75rem;
+  width: 8.909rem;
+
+}
+
+.cadastro__texto {
+  color: var(--azul);
+  text-align: center;
+  margin: 0 2rem 2rem 2rem;
+}
+
+.cadastro__splash {
+  background-image: url(../img/cadastro-left-splash.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 25.938rem;
+
+  left: 0;
+  top: 23rem;
+  width: 5.25rem;
+  z-index: -1;
+}
+
+.cadastro__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6.563rem;
+}
+
+.cadastro__label {
+  color: var(--cinza-escuro);
+  text-align: center;
+}
+
+.cadastro__form .input {
+  color: var(--cinza-claro);
+  font-size: 0.75rem;
+  height: 2.5rem;
+  width: 19.5rem;
+  margin-bottom: 1.313rem;
+  margin-top: 4px;
+
+}

@@ -1,0 +1,38 @@
+.cabecalho {
+  background: url(../img/header-shape.png);
+
+  background-repeat: no-repeat;
+  height: 18rem;
+  width: 100%;
+}
+
+.cabecalho--azul {
+  background-color: var(--azul);
+}
+
+.cabecalho__menu {
+  display: flex;
+}
+
+.cabecalho__link {
+  margin-left: 3rem;
+  margin-top: 3rem;
+
+}
+
+.cabecalho__link--home {
+  background-image: url(../img/house.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1.25rem;
+  width: 1.25rem;
+
+}
+
+.cabecalho__link--message {
+  background-image: url(../img/message.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1.25rem;
+  width: 1.25rem;
+}

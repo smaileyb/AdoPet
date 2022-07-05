@@ -1,0 +1,14 @@
+@import url(_variaveis.css);
+@import url(_reset.css);
+
+body {
+  font-family: var(--familia-corpo);
+  font-size: 1rem;
+
+}
+
+
+.titulo {
+  font-size: var(--tamanho-titulo);
+
+}
