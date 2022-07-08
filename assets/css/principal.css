@@ -22,6 +22,7 @@
 
 .principal__texto {
   color: white;
+  line-height: 2rem;
   text-align: center;
   margin: 1rem 3.5rem 2rem 3.5rem;
 
@@ -36,21 +37,21 @@
 }
 
 .principal__splash {
-  background-image: url(../img/home-right-shape.png);
+  background-image: url(../img/home-right-splash.png);
   background-repeat: no-repeat;
+  background-position-x: 100%;
   position: absolute;
   height: 25.938rem;
   top: 12.5rem;
-  /* left: calc(100vw - 5.25rem); */
-  right: -1rem;
-  width: 5.25rem;
+  right: 0rem;
+  width: 5.252rem;
 
 }
 
 .principal__imagem {
   background-image: url(../img/cat-and-dog.png);
   background-repeat: no-repeat;
-  /* background-size: contain; */
+  background-size: contain;
   height: 19.5rem;
   width: 15.438rem;
   margin: 2rem 4.938rem -1rem 2rem;

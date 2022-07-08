@@ -1,0 +1,63 @@
+.animais__texto {
+  color: var(--azul);
+  line-height: 1.25rem;
+  margin: -8rem 4.188rem 2rem 4.188rem;
+  text-align: center;
+}
+
+.animais__cartao {
+  box-sizing: border-box;
+  background-color: #F7F7F7;
+  display: flex;
+  height: 12.25rem;
+  margin-bottom: 1rem;
+  width: 100vw;
+}
+
+.animais__imagem {
+  margin: 1.5rem 1rem 1.5rem 1.5rem;
+  height: 9.25rem;
+  width: 9.25rem;
+}
+
+.animais__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.animais__nome {
+  color: var(--azul);
+  font-weight: 600;
+  line-height: 1.25rem;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+
+.animais__dados {
+  color: var(--cinza-escuro);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.animais__dados:last-of-type {
+  font-size: 0.75rem;
+  margin-top: 1.875rem;
+  margin-bottom: 0.5rem;
+  line-height: 1rem;
+}
+
+.animais__contato {
+  font-size: 0.625rem;
+  line-height: 1rem;
+}
+
+.animais__contato--icone {
+  background-image: url(../img/ícone_mensagem.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 1.125rem;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+  width: 1.125rem;
+}
