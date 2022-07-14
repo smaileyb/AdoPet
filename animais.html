@@ -5,27 +5,29 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AdoPet | Login</title>
+  <title>AdoPet | Pets</title>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;600&display=swap"
     rel="stylesheet">
+  <link rel="icon" href="./assets/img/logo-icon.png">
   <link rel="stylesheet" href="./assets/css/base/base.css">
   <link rel="stylesheet" href="./assets/css/componente/botao.css">
+  <link rel="stylesheet" href="./assets/css/componente/input.css">
   <link rel="stylesheet" href="./assets/css/cabecalho.css">
   <link rel="stylesheet" href="./assets/css/animais.css">
-  <link rel="stylesheet" href="./assets/css/componente/input.css">
   <link rel="stylesheet" href="./assets/css/rodape.css">
 </head>
 
 <body>
   <header class="cabecalho">
+    <div class="cabecalho__logo"></div>
     <nav class="cabecalho__menu">
       <a href="./index.html" class="cabecalho__link">
         <div class="cabecalho__link--home"></div>
       </a>
-      <a href="#" class="cabecalho__link">
+      <a href="./mensagem.html" class="cabecalho__link">
         <div class="cabecalho__link--message"></div>
       </a>
-      <a href="#" class="cabecalho__link">
+      <a href="./perfil.html" class="cabecalho__link">
         <div class="cabecalho__link--user"></div>
       </a>
 
@@ -33,103 +35,106 @@
   </header>
   <main class="animais">
     <p class="animais__texto">Olá! Veja os amigos disponíveis para adoção!</p>
-    <div class="animais__cartao">
-      <img src="./assets/img/animais-Dunga.png" alt="Cachorrinho de três cores" class="animais__imagem">
-      <div class="animais__info">
-        <h2 class="animais__nome">Dunga</h2>
-        <p class="animais__dados">2 anos</p>
-        <p class="animais__dados">Porte pequeno</p>
-        <p class="animais__dados">Calmo e educado</p>
-        <p class="animais__dados">Rio de Janeiro (RJ)</p>
-        <a href="#" class="animais__contato"> <span class="animais__contato--icone"></span> Falar com responsável</a>
+    <div class="animais__lista">
+
+      <div class="animais__cartao">
+        <img src="./assets/img/animais-Dunga.png" alt="Cachorrinho de três cores" class="animais__imagem">
+        <div class="animais__info">
+          <h2 class="animais__nome">Dunga</h2>
+          <p class="animais__dados">2 anos</p>
+          <p class="animais__dados">Porte pequeno</p>
+          <p class="animais__dados">Calmo e educado</p>
+          <p class="animais__dados">Rio de Janeiro (RJ)</p>
+          <a href="#" class="animais__contato"> <span class="animais__contato--icone"></span> Falar com responsável</a>
+        </div>
       </div>
-    </div>
-    <div class="animais__cartao">
-      <img src="./assets/img/animais-Felícia.png" alt="Gata cinza com manchas pretas" class="animais__imagem">
-      <div class="animais__info">
-        <h2 class="animais__nome">Felícia</h2>
-        <p class="animais__dados">3 meses</p>
-        <p class="animais__dados">Porte pequeno</p>
-        <p class="animais__dados">Ativa e carinhosa</p>
-        <p class="animais__dados">Nova Iguaçu (RJ)</p>
-        <a href="#" class="animais__contato"> <span class="animais__contato--icone"></span> Falar com responsável</a>
+      <div class="animais__cartao">
+        <img src="./assets/img/animais-Felícia.png" alt="Gata cinza com manchas pretas" class="animais__imagem">
+        <div class="animais__info">
+          <h2 class="animais__nome">Felícia</h2>
+          <p class="animais__dados">3 meses</p>
+          <p class="animais__dados">Porte pequeno</p>
+          <p class="animais__dados">Ativa e carinhosa</p>
+          <p class="animais__dados">Nova Iguaçu (RJ)</p>
+          <a href="#" class="animais__contato"> <span class="animais__contato--icone"></span> Falar com responsável</a>
+        </div>
       </div>
-    </div>
-    <div class="animais__cartao">
-      <img src="./assets/img/animais-Sirius.png" alt="Cachorro preto e branco" class="animais__imagem">
-      <div class="animais__info">
-        <h2 class="animais__nome">Sirius</h2>
-        <p class="animais__dados">6 meses</p>
-        <p class="animais__dados">Porte grande</p>
-        <p class="animais__dados">Ativo e educado</p>
-        <p class="animais__dados">Duque de Caxias (RJ)</p>
-        <a href="#" class="animais__contato"> <span class="animais__contato--icone"></span> Falar com responsável</a>
+      <div class="animais__cartao">
+        <img src="./assets/img/animais-Sirius.png" alt="Cachorro preto e branco" class="animais__imagem">
+        <div class="animais__info">
+          <h2 class="animais__nome">Sirius</h2>
+          <p class="animais__dados">6 meses</p>
+          <p class="animais__dados">Porte grande</p>
+          <p class="animais__dados">Ativo e educado</p>
+          <p class="animais__dados">Duque de Caxias (RJ)</p>
+          <a href="#" class="animais__contato"> <span class="animais__contato--icone"></span> Falar com responsável</a>
+        </div>
       </div>
-    </div>
-    <div class="animais__cartao">
-      <img src="./assets/img/animais-Fiona.png" alt="Cadela de de orelhas pontudas" class="animais__imagem">
-      <div class="animais__info">
-        <h2 class="animais__nome">Fiona</h2>
-        <p class="animais__dados">3 anos</p>
-        <p class="animais__dados">Porte pequeno</p>
-        <p class="animais__dados">Calma e carinhosa</p>
-        <p class="animais__dados">São Gonçalo (RJ)</p>
-        <a href="#" class="animais__contato"> <span class="animais__contato--icone"></span> Falar com responsável</a>
+      <div class="animais__cartao">
+        <img src="./assets/img/animais-Fiona.png" alt="Cadela de de orelhas pontudas" class="animais__imagem">
+        <div class="animais__info">
+          <h2 class="animais__nome">Fiona</h2>
+          <p class="animais__dados">3 anos</p>
+          <p class="animais__dados">Porte pequeno</p>
+          <p class="animais__dados">Calma e carinhosa</p>
+          <p class="animais__dados">São Gonçalo (RJ)</p>
+          <a href="#" class="animais__contato"> <span class="animais__contato--icone"></span> Falar com responsável</a>
+        </div>
       </div>
-    </div>
-    <div class="animais__cartao">
-      <img src="./assets/img/animais-Sid.png" alt="Cachorro usando um lenço" class="animais__imagem">
-      <div class="animais__info">
-        <h2 class="animais__nome">Sid</h2>
-        <p class="animais__dados">8 meses</p>
-        <p class="animais__dados">Porte médio/grande</p>
-        <p class="animais__dados">Brincalhão e amável</p>
-        <p class="animais__dados">Rio de Janeiro (RJ)</p>
-        <a href="#" class="animais__contato"> <span class="animais__contato--icone"></span> Falar com responsável</a>
+      <div class="animais__cartao">
+        <img src="./assets/img/animais-Sid.png" alt="Cachorro usando um lenço" class="animais__imagem">
+        <div class="animais__info">
+          <h2 class="animais__nome">Sid</h2>
+          <p class="animais__dados">8 meses</p>
+          <p class="animais__dados">Porte médio/grande</p>
+          <p class="animais__dados">Brincalhão e amável</p>
+          <p class="animais__dados">Rio de Janeiro (RJ)</p>
+          <a href="#" class="animais__contato"> <span class="animais__contato--icone"></span> Falar com responsável</a>
+        </div>
       </div>
-    </div>
-    <div class="animais__cartao">
-      <img src="./assets/img/animais-Yoda.png" alt="Gato mourisco" class="animais__imagem">
-      <div class="animais__info">
-        <h2 class="animais__nome">Yoda</h2>
-        <p class="animais__dados">1 ano</p>
-        <p class="animais__dados">Porte médio</p>
-        <p class="animais__dados">Ativo e carinhoso</p>
-        <p class="animais__dados">Nova Iguaçu (RJ)</p>
-        <a href="#" class="animais__contato"> <span class="animais__contato--icone"></span> Falar com responsável</a>
+      <div class="animais__cartao">
+        <img src="./assets/img/animais-Yoda.png" alt="Gato mourisco" class="animais__imagem">
+        <div class="animais__info">
+          <h2 class="animais__nome">Yoda</h2>
+          <p class="animais__dados">1 ano</p>
+          <p class="animais__dados">Porte médio</p>
+          <p class="animais__dados">Ativo e carinhoso</p>
+          <p class="animais__dados">Nova Iguaçu (RJ)</p>
+          <a href="#" class="animais__contato"> <span class="animais__contato--icone"></span> Falar com responsável</a>
+        </div>
       </div>
-    </div>
-    <div class="animais__cartao">
-      <img src="./assets/img/animais-Lua.png" alt="Gata de duas cores" class="animais__imagem">
-      <div class="animais__info">
-        <h2 class="animais__nome">Lua</h2>
-        <p class="animais__dados">6 meses</p>
-        <p class="animais__dados">Porte médio</p>
-        <p class="animais__dados">Ativa e carinhosa</p>
-        <p class="animais__dados">Duque de Caxias (RJ)</p>
-        <a href="#" class="animais__contato"> <span class="animais__contato--icone"></span> Falar com responsável</a>
+      <div class="animais__cartao">
+        <img src="./assets/img/animais-Lua.png" alt="Gata de duas cores" class="animais__imagem">
+        <div class="animais__info">
+          <h2 class="animais__nome">Lua</h2>
+          <p class="animais__dados">6 meses</p>
+          <p class="animais__dados">Porte médio</p>
+          <p class="animais__dados">Ativa e carinhosa</p>
+          <p class="animais__dados">Duque de Caxias (RJ)</p>
+          <a href="#" class="animais__contato"> <span class="animais__contato--icone"></span> Falar com responsável</a>
+        </div>
       </div>
-    </div>
-    <div class="animais__cartao">
-      <img src="./assets/img/animais-Amora.png" alt="Filhote de cachorro preta e caramelo" class="animais__imagem">
-      <div class="animais__info">
-        <h2 class="animais__nome">Amora</h2>
-        <p class="animais__dados">45 dias</p>
-        <p class="animais__dados">Porte grande</p>
-        <p class="animais__dados">Calma e carinhosa</p>
-        <p class="animais__dados">São Gonçalo (RJ)</p>
-        <a href="#" class="animais__contato"> <span class="animais__contato--icone"></span> Falar com responsável</a>
+      <div class="animais__cartao">
+        <img src="./assets/img/animais-Amora.png" alt="Filhote de cachorro preta e caramelo" class="animais__imagem">
+        <div class="animais__info">
+          <h2 class="animais__nome">Amora</h2>
+          <p class="animais__dados">45 dias</p>
+          <p class="animais__dados">Porte grande</p>
+          <p class="animais__dados">Calma e carinhosa</p>
+          <p class="animais__dados">São Gonçalo (RJ)</p>
+          <a href="#" class="animais__contato"> <span class="animais__contato--icone"></span> Falar com responsável</a>
+        </div>
       </div>
-    </div>
-    <div class="animais__cartao">
-      <img src="./assets/img/animais-Zelda.png" alt="Gata de lenço" class="animais__imagem">
-      <div class="animais__info">
-        <h2 class="animais__nome">Zelda</h2>
-        <p class="animais__dados">5 meses</p>
-        <p class="animais__dados">Porte médio</p>
-        <p class="animais__dados">Ativa e amável</p>
-        <p class="animais__dados">Rio de Janeiro (RJ)</p>
-        <a href="#" class="animais__contato"> <span class="animais__contato--icone"></span> Falar com responsável</a>
+      <div class="animais__cartao">
+        <img src="./assets/img/animais-Zelda.png" alt="Gata de lenço" class="animais__imagem">
+        <div class="animais__info">
+          <h2 class="animais__nome">Zelda</h2>
+          <p class="animais__dados">5 meses</p>
+          <p class="animais__dados">Porte médio</p>
+          <p class="animais__dados">Ativa e amável</p>
+          <p class="animais__dados">Rio de Janeiro (RJ)</p>
+          <a href="#" class="animais__contato"> <span class="animais__contato--icone"></span> Falar com responsável</a>
+        </div>
       </div>
     </div>
   </main>

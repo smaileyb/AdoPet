@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AdoPet | Mensagem</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="./assets/img/logo-icon.png">
+  <link rel="stylesheet" href="./assets/css/base/base.css">
+  <link rel="stylesheet" href="./assets/css/componente/botao.css">
+  <link rel="stylesheet" href="./assets/css/componente/input.css">
+  <link rel="stylesheet" href="./assets/css/cabecalho.css">
+  <link rel="stylesheet" href="./assets/css/mensagem-perfil.css">
+  <link rel="stylesheet" href="./assets/css/rodape.css">
+</head>
+
+<body>
+  <header class="cabecalho">
+    <div class="cabecalho__logo"></div>
+    <nav class="cabecalho__menu">
+      <a href="./index.html" class="cabecalho__link">
+        <div class="cabecalho__link--home"></div>
+      </a>
+      <a href="#" class="cabecalho__link">
+        <div class="cabecalho__link--message"></div>
+      </a>
+      <a href="./perfil.html" class="cabecalho__link">
+        <div class="cabecalho__link--user"></div>
+      </a>
+
+    </nav>
+  </header>
+  <main class="mensagem">
+    <p class="mensagem__texto">Envie uma mensagem para a pessoa ou instituição que está cuidado do animal:</p>
+    <div class="mensagem__splash"></div>
+    <div class="mensagem__cartao">
+      <form class="mensagem__form" action="submit">
+        <label class="mensagem__label" for=""> Nome </label>
+        <input class="input input--branco" type="text" placeholder="Insira seu nome completo">
+        <label class="mensagem__label" for=""> Telefone </label>
+        <input class="input input--branco" type="tel" placeholder="Insira seu telefone e/ou whatsapp">
+        <label class="mensagem__label" for=""> Nome do animal </label>
+        <input class="input input--branco" type="text" placeholder="Por qual animal você se interessou?">
+        <label class="mensagem__label" for=""> Mensagem </label>
+        <textarea name="" id="" cols="30" rows="10" class="input--text" placeholder="Escreva sua mensagem"></textarea>
+        <button class="botao">Enviar</button>
+      </form>
+    </div>
+
+  </main>
+  <footer class="rodape">
+    <p>2022 - Desenvolvido por Alura.</p>
+  </footer>
+
+</body>
+
+</html>

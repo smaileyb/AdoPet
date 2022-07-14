@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AdoPet | Mensagem</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="./assets/img/logo-icon.png">
+  <link rel="stylesheet" href="./assets/css/base/base.css">
+  <link rel="stylesheet" href="./assets/css/componente/botao.css">
+  <link rel="stylesheet" href="./assets/css/componente/input.css">
+  <link rel="stylesheet" href="./assets/css/cabecalho.css">
+  <link rel="stylesheet" href="./assets/css/mensagem-perfil.css">
+  <link rel="stylesheet" href="./assets/css/rodape.css">
+</head>
+
+<body>
+  <header class="cabecalho">
+    <div class="cabecalho__logo"></div>
+    <nav class="cabecalho__menu">
+      <a href="./index.html" class="cabecalho__link">
+        <div class="cabecalho__link--home"></div>
+      </a>
+      <a href="./mensagem.html" class="cabecalho__link">
+        <div class="cabecalho__link--message"></div>
+      </a>
+      <a href="perfil.html" class="cabecalho__link">
+        <div class="perfil__ativo"></div>
+      </a>
+
+    </nav>
+  </header>
+  <main class="perfil">
+    <p class="mensagem__texto">Esse é o perfil que aparece para responsáveis ou ONGs que recebem sua mensagem.</p>
+    <div class="mensagem__splash"></div>
+    <div class="mensagem__cartao">
+      <form class="mensagem__form" action="submit">
+        <h4 class="perfil__titulo">Perfil</h4>
+        <label class="mensagem__label">Foto</label>
+        <img src="./assets/img/perfil-joana.png" alt="foto da Joana" class="perfil__foto">
+        <p class="perfil__foto--info">Clique na foto para editar</p>
+        <label class="mensagem__label" for=""> Nome </label>
+        <input class="input input--branco" type="text" placeholder="Insira seu nome completo" value="Joana Magalhães">
+        <label class="mensagem__label" for=""> Telefone </label>
+        <input class="input input--branco" type="tel" placeholder="Insira seu telefone e/ou whatsapp"
+          value="55 11 XXXXX-XXXX">
+        <label class="mensagem__label" for=""> Cidade </label>
+        <input class="input input--branco" type="text" placeholder="Qual é a sua cidade?" value="São Paulo">
+        <label class="mensagem__label" for=""> Sobre </label>
+        <textarea name="mensagem" cols="30" rows="10"
+          class="input--text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati.</textarea>
+        <button class="botao">Salvar</button>
+      </form>
+    </div>
+
+  </main>
+  <footer class="rodape">
+    <p>2022 - Desenvolvido por Alura.</p>
+  </footer>
+
+</body>
+
+</html>

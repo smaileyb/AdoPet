@@ -5,9 +5,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AdoPet</title>
+  <title>AdoPet | Inicial</title>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;600&display=swap"
     rel="stylesheet">
+  <link rel="icon" href="./assets/img/logo-icon.png">
   <link rel="stylesheet" href="./assets/css/base/base.css">
   <link rel="stylesheet" href="./assets/css/componente/botao.css">
   <link rel="stylesheet" href="./assets/css/cabecalho.css">
@@ -15,14 +16,18 @@
   <link rel="stylesheet" href="./assets/css/rodape.css">
 </head>
 
-<body>
-  <header class="cabecalho cabecalho--azul">
+<body class="inicial">
+  <header class="cabecalho">
+    <div class="cabecalho__logo"></div>
     <nav class="cabecalho__menu">
       <a href="./index.html" class="cabecalho__link">
         <div class="cabecalho__link--home"></div>
       </a>
-      <a href="#" class="cabecalho__link">
+      <a href="./mensagem.html" class="cabecalho__link">
         <div class="cabecalho__link--message"></div>
+      </a>
+      <a href="./perfil.html" class="cabecalho__link">
+        <div class="cabecalho__link--user inativo"></div>
       </a>
     </nav>
   </header>
@@ -32,15 +37,15 @@
     </h1>
 
     <h2 class="principal__titulo">Boas-vindas!</h2>
-    <p class="principal__texto">Que tal mudar sua vida adotando seu novo melhor amigo? Vem com a gente!</p>
+    <p class="principal__texto--mobile">Que tal mudar sua vida adotando seu novo melhor amigo? Vem com a gente!</p>
+    <p class="principal__texto">Adotar pode mudar uma vida. Que tal buscar seu novo melhor amigo hoje?
+      Vem com a gente!</p>
     <a href="./login.html">
       <button class="botao">Já tenho conta</button>
-
     </a>
     <a href="./cadastro.html">
       <!-- Arrumar isso depois -->
       <button class="botao">Quero me cadastrar</button>
-
     </a>
     <div class="principal__splash"></div>
     <div class="principal__imagem"></div>

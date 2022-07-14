@@ -61,3 +61,20 @@
   vertical-align: middle;
   width: 1.125rem;
 }
+
+@media screen and (min-width: 768px) {
+  .animais__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 1rem;
+  }
+
+  .animais__cartao {
+    margin-left: 1rem;
+
+    width: 21.5rem;
+  }
+
+
+}

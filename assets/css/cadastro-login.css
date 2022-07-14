@@ -1,6 +1,12 @@
 .cadastro {
+  align-items: center;
   display: flex;
   flex-direction: column;
+}
+
+.cadastro>h1 {
+  display: flex;
+  justify-content: center;
 }
 
 .cadastro__logo {
@@ -8,9 +14,8 @@
   background-size: contain;
   background-repeat: no-repeat;
   height: 2.148rem;
-  left: 6.813rem;
-  position: absolute;
-  top: 9.75rem;
+  margin-bottom: 1.5rem;
+  margin-top: -7rem;
   width: 8.909rem;
 }
 
@@ -53,7 +58,6 @@
 }
 
 .cadastro__form .input {
-  color: var(--cinza-claro);
   font-size: 0.75rem;
   height: 2.5rem;
   width: 19.5rem;
@@ -66,4 +70,64 @@
   font-size: 0.75rem;
   margin-bottom: 2rem;
   text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+
+  .cadastro__logo {
+    height: 3.875rem;
+    margin-top: -11rem;
+    width: 15.724rem;
+  }
+
+  .cadastro__texto {
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    width: 32.813rem;
+  }
+
+  .cadastro__splash {
+    background-image: url(../img/home-right-splash.png);
+    background-position-x: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 41.5rem;
+    top: 16.75rem;
+    left: auto;
+    right: 0rem;
+    width: 8.375rem;
+  }
+
+  .cadastro__label {
+    font-size: 1.125rem;
+  }
+
+  .cadastro__form .input {
+    font-size: 0.875rem;
+    width: 21.5rem;
+  }
+
+  .cadastro__form .botao {
+    width: 9.25rem;
+  }
+
+}
+
+@media screen and (min-width: 1440px) {
+  .cadastro__form .input:nth-child(2) {
+    width: 34.5rem;
+  }
+
+  .cadastro__form .input:nth-child(4) {
+    width: 34.5rem;
+  }
+
+  .cadastro__form--login .input:nth-child(2) {
+    width: 34.5rem;
+  }
+
+  .cadastro__form--login .input:nth-child(4) {
+    width: 21.5rem;
+  }
+
 }
